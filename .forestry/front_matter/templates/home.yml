@@ -10,6 +10,10 @@ fields:
       wysiwyg: true
       schema:
         format: html
+  - type: list
+    name: items
+    label: Items
+    default: ''
   - name: permalink
     type: text
     label: Permalink
