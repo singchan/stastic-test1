@@ -4,8 +4,16 @@ label: Contact
 fields:
   - type: file
     name: logo
-    label: Logo
+    label: logo
     default: ''
+  - type: textarea
+    name: author
+    label: author
+    default: ''
+    config:
+      wysiwyg: true
+      schema:
+        format: html
   - name: permalink
     type: text
     label: Permalink
