@@ -51,3 +51,5 @@ fields:
   default: home
   config:
     required: true
+pages:
+- content/pages/home.md
