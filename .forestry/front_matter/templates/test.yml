@@ -11,9 +11,21 @@ fields:
 - type: text
   name: permalink
   label: permalink
-- type: list
-  name: items
-  label: items
 - type: file
   name: logo
   label: logo
+- name: items
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Items
+- name: items2
+  type: blocks
+  label: Items
+  template_types:
+  - home
+  config:
+    min: 
+    max: 
