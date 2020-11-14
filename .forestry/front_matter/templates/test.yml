@@ -1,0 +1,19 @@
+---
+label: test
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: header
+  label: header
+- type: text
+  name: permalink
+  label: permalink
+- type: list
+  name: items
+  label: items
+- type: file
+  name: logo
+  label: logo
