@@ -1,22 +1,20 @@
 ---
-id: contact
 label: Contact
-fields:
-  - type: file
-    name: logo
-    label: Logo
-    default: ''
-  - name: permalink
-    type: text
-    label: Permalink
-    config:
-      required: true
-  - name: layout
-    type: text
-    hidden: true
-    label: layout
-    default: contact
-    config:
-      required: true
-name: contact.yml
 hide_body: true
+fields:
+- type: file
+  name: logo
+  label: Logo
+  default: ''
+- name: permalink
+  type: text
+  label: Permalink
+  config:
+    required: true
+- name: layout
+  type: text
+  hidden: true
+  label: layout
+  default: contact
+  config:
+    required: true
