@@ -18,6 +18,7 @@ fields:
     name: items
     label: Items test
     default: ''
+    fields: []
   - type: textarea
     name: text
     label: text in the list
