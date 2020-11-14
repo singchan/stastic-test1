@@ -27,14 +27,18 @@ fields:
     label: items
     default: ''
     fields:
-      - &ref_0
-        type: field_group_list
-        name: items
-        label: items
+      - type: file
+        name: image
+        label: image
         default: ''
-      - *ref_0
-      - *ref_0
-      - *ref_0
+      - type: textarea
+        name: text
+        label: text
+        default: ''
+        config:
+          wysiwyg: true
+          schema:
+            format: html
   - name: permalink
     type: text
     label: Permalink
