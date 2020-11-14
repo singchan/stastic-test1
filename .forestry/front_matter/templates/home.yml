@@ -18,6 +18,18 @@ fields:
     name: items
     label: Items
     default: ''
+  - type: textarea
+    name: text
+    label: text in the list
+    default: aa
+    config:
+      wysiwyg: true
+      schema:
+        format: html
+  - type: file
+    name: image
+    label: image in the list
+    default: ''
   - name: permalink
     type: text
     label: Permalink
