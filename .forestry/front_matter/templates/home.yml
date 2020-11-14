@@ -21,7 +21,7 @@ fields:
   - type: textarea
     name: text
     label: text in the list
-    default: aa
+    default: ''
     config:
       wysiwyg: true
       schema:
