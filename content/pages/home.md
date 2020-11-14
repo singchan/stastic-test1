@@ -10,6 +10,8 @@ header: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam venenati
   a neque vitae auctor. Etiam vulputate vulputate dolor, id sollicitudin lorem commodo
   in. In a turpis nulla. Nullam fringilla leo lorem, eget ornare nibh rhoncus eu.Phasellus
 items:
+- image: "/uploads/bouill.png"
+  text: In a turpis nulla. Nullam fringilla leo lorem, eget ornare nibh rhoncus eu.Phasellus
 - image: "/uploads/forestryio-screenshot.jpg"
   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam venenatis
     ante at tellus pulvinar pellentesque. Curabitur condimentum nisl sem, condimentum
