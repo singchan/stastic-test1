@@ -16,7 +16,7 @@ fields:
         format: html
   - type: field_group_list
     name: items
-    label: Items
+    label: Items test
     default: ''
   - type: textarea
     name: text
